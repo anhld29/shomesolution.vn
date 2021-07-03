@@ -1,0 +1,231 @@
+
+
+.section-product.mb20 {
+
+    margin-bottom: 20px;
+
+}
+
+.product-detail-main-content .product-detail-first-block .column-left .product-images .product-image-thumbnail .item-image:not(:last-child) {
+
+    margin-right: 11px;
+
+}
+
+.catalog-product-view .product-detail-product-info-detail .product-info-detailed .main-column .add-customer-review #review-form .mark-star .product-infor-bottom img {
+
+    max-width: 120px;
+
+    border-radius: 100%;
+
+}
+
+@media (max-width: 767px){
+
+    .header-default .container .sidebar-mobile span {
+
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/pwA+AAAAAXNSR0IB2cksfwAAABtQTFRFAAAAIDBcIDBdIDJcIDBdIDJcIDFcIDJbIDFc4e5BhAAAAAl0Uk5TAFCPkGCA/5+gr4YkmQAAAFxJREFUeJw9zkEKwDAIBECPngv9SZ9S8oNgjnmCp7y76roNJCwDrpFL+jwyNpJOUUM8HrdYVz5GBBeCgcmNycRgYkRj0nU20bkyx5tzHIzOYnQmc1Hw8P/rN9vfD6c3GP5fUur7AAAAAElFTkSuQmCC);
+
+        padding-left: 30px;
+
+        background-position: 0 12px;
+
+        background-repeat: no-repeat;
+
+    }
+
+    .shomesolution-homepage #shomesolution-store-locator .store-text-desktop{
+
+        max-width: 100%;
+
+    }
+    .section-tabs-brand.items-4 .wapper-items .section-brand .item {
+
+    width: calc(100% / 5) !important
+
+}
+.section-tabs-brand .wapper-items .section-brand .item a{
+        border-bottom: 1px solid #eaeaea !important;
+        height: 95px;
+}
+.section-tabs-brand .wapper-items .section-brand .item {
+    width: calc(100% / 4)  !important
+}
+
+}
+
+.product img{
+
+    height: 271px;
+
+    object-fit: contain;
+
+
+
+}
+
+.alert-danger {
+
+    color: #721c24;
+
+    background-color: #f8d7da;
+
+    border-color: #f5c6cb;
+
+}
+
+
+
+.alert-success {
+
+    color: #155724;
+
+    background-color: #d4edda;
+
+    border-color: #c3e6cb;
+
+}
+
+
+
+.alert {
+
+    position: relative;
+
+    padding: .75rem 1.25rem;
+
+    margin-bottom: 1rem;
+
+    border: 1px solid transparent;
+
+    border-radius: .25rem;
+
+}
+
+@media only screen and (max-width: 767px){
+
+    .account .page-main, .cms-privacy-policy .page-main{
+
+        padding-top: 50px;
+
+    }
+
+    .page-main .sidebar .block:not(.block-static-block) .block-collapsible-nav-title strong{
+
+        line-height: 41px;
+
+        padding-bottom: 0px;
+
+    }
+
+    .block-collapsible-nav-title{
+
+        padding-left: 15px !important;
+
+    }
+
+    .block-collapsible-nav .item {
+
+        padding-left: 15px;
+
+    }
+
+    .checkout-desktop .onepage-checkout #info-customer,.checkout-desktop .onepage-checkout .right-container{
+
+        -ms-flex: 0 0 100%;
+
+        flex: 0 0 100%;
+
+        max-width: 100%;
+
+        padding: 0px;
+
+    }
+
+    .checkout-mobile .checkout-steps .payment,.checkout-mobile .checkout-steps .information-customer {
+
+        margin-top: 10px;
+
+        padding-bottom: 20px;
+
+    }
+
+    .checkout-mobile .checkout-steps .content-block {
+
+        padding-bottom: 10px;
+
+    }
+
+    .catalog-product-view .product-detail-product-info-detail .product-info-detailed .main-column .customer-review .items-review .review .customer{
+
+        display: none;
+
+    }
+
+    .item.category3 a{
+
+        font-size: 24px;
+
+        font-weight: 600;
+
+        color: #d89b0f;
+
+    }
+
+}
+
+@media (min-width: 768px){
+
+    .cdz-menu .col-sm-8 {
+
+        width: 19.333333%;
+
+    }
+
+
+
+}
+
+@media (max-width: 768px){
+
+
+
+}
+
+.cdz-main-menu .cdz-horizontal-menu li.level0 > .groupmenu-drop {
+
+    height: auto;
+
+}
+
+#shomesolution-header .header-top .mini-cart .number-items{
+
+    right: 0px !important;
+
+}
+
+#footer-shomesolution .bottom-footer .bottom-footer-container .bottom-footer-item.report img{
+
+    margin-bottom: 20px;
+
+}
+
+@media (max-width: 767px){
+
+    body #shomesolution-header .mini-cart .cart-icon:before {
+
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MiIgaGVpZ2h0PSIzNiI+PGRlZnM+PGNsaXBQYXRoIGlkPSJhIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNNiAzNmE2IDYgMCAwMS02LTZWNmE2IDYgMCAwMTYtNmgyOS4xMzVhNiA2IDAgMDE2IDZ2MjRhNiA2IDAgMDEtNiA2eiIvPjwvY2xpcFBhdGg+PC9kZWZzPjxwYXRoIGZpbGw9IiMyZDJlN2YiIGQ9Ik0xNy41OTcgMjkuMDczYy0xLjY1OS4wMTQtMi45NzYtMS4yNjYtMi45OTctMi45MTMtLjAyMi0xLjYzNSAxLjI5OC0yLjk5NSAyLjkyLTMuMDE0IDEuNjUtLjAyIDMuMDA2IDEuMjg1IDMuMDIxIDIuOTA2LjAxNiAxLjcwMi0xLjI1NCAzLjAwNi0yLjk0NCAzLjAyek0yOS43MzIgMjYuMTc0Yy0uMDA0IDEuNjMzLTEuMjg1IDIuOTAyLTIuOTI5IDIuOTAzLTEuNjk4LjAwMS0yLjk5Ny0xLjI5Ny0yLjk4My0yLjk4YTIuOTU5IDIuOTU5IDAgMDEyLjk3LTIuOTUyYzEuNjY0LjAwMSAyLjk0NyAxLjMyMyAyLjk0MiAzLjAyOXpNMzMuMTU4IDExLjVjLS4zNTUtLjEwNS0uNzU0LS4xMjctMS4xMzMtLjEyNy02LjA5Ny0uMDA4LTEyLjE5NS0uMDA2LTE4LjI5Mi0uMDA2aC0uNTk1bC0uOTctMy4xODJjLS4xNzctLjU4NS0uNTUzLS45LTEuMTYtLjkwNS0xLjYwNC0uMDEzLTEuNDMzLjA0NS0zLjAzNy4wNS0uMzkzLjAwMy0uNzg0LjEzNC0uODYuNDkyLS4wNTcuMjc2LS4wMTMuNjUxLjE2Ny44NTkuMTguMjEyLjU3Ny4zNjYuODkxLjM4NSAxLjIzMi4wNjguNjkxLjAyNCAxLjkyNi4wNC4yOTYuMDAzLjQxMy4xLjQ4Ni4zNDkuODEgMi43NCAxLjYzNCA1LjQ3NyAyLjQ1IDguMjE0LjM5OCAxLjMzMi43OTQgMi42NjQgMS4xODkgMy45OTZoMTUuNDg3Yy4zODctLjA2Mi42NzQtLjI0NC44MjItLjY0Ni4xMTktLjMyMS4yOC0uNjMuNDItLjk0NiAxLjAxNy0yLjMyMyAyLjAzOS00LjY0NSAzLjA0OC02Ljk3Mi4zMDQtLjctLjAzMy0xLjM2Mi0uODQtMS42MDF6Ii8+PGc+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMmQyZTdmIiBzdHJva2UtbWl0ZXJsaW1pdD0iMjAiIHN0cm9rZS13aWR0aD0iNCIgZD0iTTYgMzZhNiA2IDAgMDEtNi02VjZhNiA2IDAgMDE2LTZoMjkuMTM1YTYgNiAwIDAxNiA2djI0YTYgNiAwIDAxLTYgNnoiIGNsaXAtcGF0aD0idXJsKCZxdW90OyNhJnF1b3Q7KSIvPjwvZz48L3N2Zz4=);
+
+    }
+
+
+
+}
+
+.cdz-menu .groupmenu-drop {
+
+
+
+    top: 97%;
+
+}

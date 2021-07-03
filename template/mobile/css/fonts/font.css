@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'GoogleSans-Regular';
+  src: url('GoogleSans-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GoogleSans-Bold';
+  src: url('GoogleSans-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SAMSUNGSHARPSANS-BOLD-UTF8';
+  src: url('SAMSUNGSHARPSANS-BOLD-UTF8.TTF');
+  font-weight: normal;
+  font-style: normal;
+}

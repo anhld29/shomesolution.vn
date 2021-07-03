@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Phần mềm tính toán - [Nhóm bài viết]</title>
+		<item>
+			<param>software/backend/catalogue/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>software/backend/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>software/backend/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>software/backend/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Phần mềm tính toán - [Chi tiết bài viết]</title>
+		<item>
+			<param>software/backend/software/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>software/backend/software/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>software/backend/software/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>software/backend/software/delete</param>
+			<description>Xóa</description>
+		</item>
+		<item>
+			<param>software/backend/software/duplicate</param>
+			<description>Sao chép</description>
+		</item>
+		<item>
+			<param>software/backend/software/viewall</param>
+			<description>Xem toàn bộ</description>
+		</item>
+	</permissions>
+</module>
