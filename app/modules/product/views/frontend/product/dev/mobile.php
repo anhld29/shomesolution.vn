@@ -142,74 +142,7 @@ $list_image = json_decode(base64_decode($productDetail['image_json']), TRUE);
                                                     <div class="button-select-option">Chọn <?php echo $title_1 ?>
                                                         /<?php echo $title_2 ?></div>
 
-                                                    <div class="color-watchs-mobile product attibute overview">
 
-
-                                                        <div class="size-thick js_addtribute">
-
-
-                                                            <?php
-                                                            if (isset($attroldISHOME) && count($attroldISHOME) && is_array($attroldISHOME)) {
-                                                                $attrFinalDOCUNG = groupValue($attroldISHOME, 'titleC');
-                                                            } else {
-                                                                $attrFinalDOCUNG = [];
-                                                            }
-                                                            ?>
-                                                            <?php if (is_array($attrFinalDOCUNG) && count($attrFinalDOCUNG) && isset($attrFinalDOCUNG)) { ?>
-                                                                <?php foreach ($attrFinalDOCUNG as $keyP => $valP) { ?>
-                                                                    <?php if (is_array($valP) && count($valP) && isset($valP)) { ?>
-                                                                        <div class="items-option">
-                                                                            <span class="label"><?php echo $keyP ?></span>
-                                                                            <div data-v-138dff1d="" class="v-select">
-                                                                                <?php foreach ($valP as $key => $val) {
-                                                                                    if ($key == 0) { ?>
-                                                                                        <button data-v-138dff1d=""
-                                                                                                type="button"
-                                                                                                class="v-select-toggle">
-                                                                                            <div class="title-attr-2">
-                                                                                                <?php echo $val['title'] ?>
-                                                                                            </div>
-                                                                                            <div data-v-138dff1d=""
-                                                                                                 class="arrow-down"></div>
-                                                                                        </button>
-                                                                                    <?php } ?>
-                                                                                <?php } ?>
-
-                                                                            </div>
-                                                                        </div>
-                                                                    <?php } ?>
-                                                                <?php } ?>
-                                                            <?php } ?>
-
-                                                            <?php if (is_array($list_version) && count($list_version) && isset($list_version)) { ?>
-                                                                <?php if (is_array($getCatalogueAttr) && count($getCatalogueAttr) && isset($getCatalogueAttr)) { ?>
-                                                                    <div class="items-option">
-                                                                        <span class="label"><?php echo $getCatalogueAttr['titleC'] ?></span>
-                                                                        <div data-v-138dff1d="" class="v-select">
-                                                                            <?php foreach ($list_version as $key => $val) {
-                                                                                if ($key == 0) { ?>
-                                                                                    <button data-v-138dff1d=""
-                                                                                            type="button"
-                                                                                            class="v-select-toggle">
-                                                                                        <div data-v-138dff1d=""
-                                                                                             class="title-attr-1">
-                                                                                            <?php echo $val['title'] ?>
-                                                                                        </div>
-                                                                                        <div data-v-138dff1d=""
-                                                                                             class="arrow-down"></div>
-                                                                                    </button>
-                                                                                <?php } ?>
-                                                                            <?php } ?>
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                <?php } ?>
-                                                            <?php } ?>
-                                                        </div>
-
-
-                                                    </div>
 
 
                                                 <?php } ?>
@@ -240,7 +173,7 @@ $list_image = json_decode(base64_decode($productDetail['image_json']), TRUE);
                                                             <a href="javascript:void(0)" rel="nofollow" title="<?php echo $v['title']?>">
                                                                 <div>
                                                                     <h5><?php echo $v['title']?></h5>
-                                                                    <p>Trị giá <span><?php echo number_format($v['description'],'0',',','.')?>₫</span></p>
+                                                                    <p>Trị giá <span><?php echo $v['description']?>₫</span></p>
                                                                     <img style="margin-top: 0px" src="<?php echo $v['images']?>" alt="<?php echo $v['title']?>"></div>
                                                             </a>
                                                         <?php }?>
@@ -1058,7 +991,6 @@ $list_image = json_decode(base64_decode($productDetail['image_json']), TRUE);
             padding-bottom: 10px;
         }
         .product-detail-main-content .product-detail-first-block .label {
-            color: #fff !important;
             font-size: 15px !important;
             font-weight: 600;
             margin-top: 0px;
@@ -1110,6 +1042,9 @@ $list_image = json_decode(base64_decode($productDetail['image_json']), TRUE);
         .lqt-tit, .lqt-data, .lqt-total {
             width: 100%;
             padding: 10px 0px;
+        }
+        .option-mobiles .button-select-option{
+            border-radius: 6px;
         }
     }
 </style>

@@ -125,7 +125,6 @@ if(!function_exists('renderDataProductInCart')){
 					$list_promo = getListPromo($promo_relationship, $list_promo , $val['option']['id'], $promoid);
 				}
 
-
 				$temp[] = $val;
 			}
 			$cart = $temp;

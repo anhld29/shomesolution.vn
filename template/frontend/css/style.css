@@ -223,9 +223,8 @@
 }
 
 .cdz-menu .groupmenu-drop {
-
-
-
     top: 97%;
-
+}
+body #product-detail-main-content .product-detail-first-block .product-detail .product.attibute.overview .size-thick .items-option{
+    display: block;
 }

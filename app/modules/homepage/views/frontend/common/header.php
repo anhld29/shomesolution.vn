@@ -2366,7 +2366,7 @@
 
                                                                                                     <ul class="groupdrop-link banner-brand">
 
-                                                                                                        <?php foreach ($valC['children'] as $keyCC => $valCC) { ?>
+                                                                                                        <?php foreach ($valC['children'] as $keyCC => $valCC) {?>
 
 
 

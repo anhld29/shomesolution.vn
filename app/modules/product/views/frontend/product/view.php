@@ -360,7 +360,7 @@ $list_image = json_decode(base64_decode($productDetail['image_json']), TRUE);
                                 <?php if(isset($listUudai) && count($listUudai) && is_array($listUudai)){  if (!empty($listUudai[0]['title'])) {?>
                                     <div class="f lqt">
                                         <div class="fl lqt-tit flexCen">
-                                            <p><b>ƯU ĐÃI ĐẶC QUYỀN</b>Khi mua <?php echo $productDetail['title']?></p>
+                                            <p><b>Nhận quà tại showroom cho đơn hàng tương ứng</b>Khi mua <?php echo $productDetail['title']?></p>
                                             <span>TẶNG</span>
                                         </div>
                                         <div class="fl lqt-data flexJus">

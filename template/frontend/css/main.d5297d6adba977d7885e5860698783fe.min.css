@@ -11625,11 +11625,9 @@ body:not([class*=category-nem-]) #shomesolution-product-filter .block.product-li
 
 
     body #shomesolution-header div#searchsuite-autocomplete {
-
         top: 0 !important;
-
-        background: #fff
-
+        background: #fff;
+        left: 0;
     }
 
 
@@ -19548,9 +19546,7 @@ body.cms-index-index .columns .column.main {
 
 
     body .header-bottom-mobile .search-bottom {
-
-        height: 85vh
-
+        height: auto;
     }
 
 
@@ -38081,7 +38077,7 @@ body .information-product .section-title {
 
         padding: 10px 15px;
 
-        border-radius: 6px 6px 0 0;
+        border-radius: 6px;
 
         color: #fff;
 

@@ -126,7 +126,6 @@ class Product extends MY_Controller {
 
 				if(isset($use_common) && is_array($use_common) && count($use_common)){
 					foreach ($use_common as $key => $value) {
-                        // var_dump($value, $detail_discount[$key],$key );
 						$block_promotional[$value][$key]['detail'] = isset($detail_discount[$key])? $detail_discount[$key] : '';
 						$block_promotional[$value][$key]['canonical'] = $canonical[$key];
 						$block_promotional[$value][$key]['title'] = $title[$key];
